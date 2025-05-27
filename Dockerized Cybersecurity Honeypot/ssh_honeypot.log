@@ -1,0 +1,20 @@
+2025-05-27 05:15:18,973 - root - INFO - Logging setup complete! Honeypot is recording activity.
+2025-05-27 05:15:46,252 - root - INFO - New connection from: 172.17.0.1
+2025-05-27 05:15:46,253 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-27 05:15:46,277 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-27 05:15:46,278 - root - INFO - client called get_allowed_auths (172.17.0.1) with username test
+2025-05-27 05:15:46,279 - root - INFO - client public key (172.17.0.1): username: test, key name: ecdsa-sha2-nistp521, md5 fingerprint: b'696824e66b7f9cc6fcb396381b2080ac', base64: AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAHhsffif6V0ePumuKteCtzVYVXTl5iDBeO6QBkyUtPuY6vSK/l6VtYxZ+GATqhuXFKJfpzm6ejQTO1rLVzwo2t8oAGNA30ZOtBsgF971UhKl7g+aL8RpcGqjmSjBBMVfKEiLN7/zrSTkfu8mRQkbqs2vEdvEXzZv4zqqVtOd3aaX56YVA==, bits: 521
+2025-05-27 05:15:46,303 - root - INFO - client public key (172.17.0.1): username: test, key name: ecdsa-sha2-nistp521, md5 fingerprint: b'696824e66b7f9cc6fcb396381b2080ac', base64: AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAHhsffif6V0ePumuKteCtzVYVXTl5iDBeO6QBkyUtPuY6vSK/l6VtYxZ+GATqhuXFKJfpzm6ejQTO1rLVzwo2t8oAGNA30ZOtBsgF971UhKl7g+aL8RpcGqjmSjBBMVfKEiLN7/zrSTkfu8mRQkbqs2vEdvEXzZv4zqqVtOd3aaX56YVA==, bits: 521
+2025-05-27 05:15:46,304 - paramiko.transport - INFO - Auth granted (publickey).
+2025-05-27 05:15:46,305 - root - INFO - client called check_channel_request (172.17.0.1): session
+2025-05-27 05:15:46,306 - root - INFO - Client mac (172.17.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-27 05:15:46,306 - root - INFO - Client compression (172.17.0.1): none
+2025-05-27 05:15:46,306 - root - INFO - Client SSH version (172.17.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-27 05:15:46,306 - root - INFO - Client SSH cipher (172.17.0.1): aes128-ctr
+2025-05-27 05:15:52,949 - root - INFO - Command received (172.17.0.1): ls
+2025-05-27 05:15:52,949 - root - INFO - Response from honeypot (172.17.0.1): users.txt
+2025-05-27 05:15:58,534 - root - INFO - Command received (172.17.0.1): pwd
+2025-05-27 05:15:58,535 - root - INFO - Response from honeypot (172.17.0.1): /home/root
+2025-05-27 05:16:06,078 - root - INFO - Command received (172.17.0.1): wow
+2025-05-27 05:16:06,078 - root - INFO - Response from honeypot (172.17.0.1): Command not found: wow
+2025-05-27 05:16:56,080 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
